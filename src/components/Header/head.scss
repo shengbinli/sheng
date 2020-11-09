@@ -1,0 +1,85 @@
+@charset "utf-8";
+.head {
+  text-align: center;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: "#aaa" !important;
+  font-size: 12px;
+  border-bottom: 1px solid #222;
+}
+.left > a {
+  padding: 0 10px;
+}
+a:link {
+  color: #222;
+}
+.ad {
+  text-align: center;
+  position: relative;
+}
+.ad i{
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  right: 150px;
+  color: antiquewhite;
+}
+.seach {
+  margin-top: 20px;
+  width: 80%;
+}
+.log {
+  float: left;
+  font-size: 40px;
+  color: rgb(19, 18, 17);
+  font-weight: bolder;
+  margin-left: 13%;
+}
+.nav {
+  position: relative;
+}
+.nav #navmiddle {
+  margin-top: 30px;
+  height: 40px;
+  width: 1000px;
+  background: rgb(224, 220, 220);
+  width: 100%;
+  text-align: left;
+}
+#navmiddle a:link {
+  color: rgb(250, 246, 246);
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;   
+  padding:0 10px;
+  text-decoration: none;
+}
+#navmiddle a:hover {
+  background-color: rgb(187, 185, 180);
+}
+.fenlei {
+  width: 160px;
+  background-color: rgb(221, 240, 248);
+  position: absolute;
+  top: 0;
+  left: 9.5%;
+  z-index: 100;
+  opacity: 0.9;
+}
+.fenlei > div {
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: rgb(82, 88, 88);
+}
+.fenlei ul li {
+  display: inline-block;
+  padding: 10px 20px;
+
+}

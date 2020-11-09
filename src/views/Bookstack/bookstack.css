@@ -1,0 +1,18 @@
+#bookstack{
+    padding: 30px,100px;
+    background-color: rgb(211, 218, 231);
+}
+h1{
+    padding: 10px 50px;
+}
+.bookitem{
+    margin: 10px 50px;
+}
+.bookitem div{ 
+    margin: 30px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+
+}

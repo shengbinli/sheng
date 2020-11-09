@@ -1,0 +1,21 @@
+#bookcont{
+    width: 100%;
+    background-color: rgb(186, 233, 143);
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+h1,h2{
+    padding: 10px;
+}
+h1 span{
+    color: rgb(61, 58, 58);
+    font-size: 18px;
+}
+.cont{
+    padding: 30px 140px;
+}
+.btn{
+    text-align: center;
+}

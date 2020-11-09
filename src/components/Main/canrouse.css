@@ -1,0 +1,16 @@
+.main{
+    position: relative;
+}
+
+.rightnews{
+    width: 200px;
+    background-color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 0;
+    z-index: 90;
+    border: burlywood 1px solid;
+}
+.rightnews ul li{
+    margin: 10px 0 10px 10px;
+}

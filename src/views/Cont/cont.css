@@ -1,0 +1,114 @@
+#contop {
+  width: 100%;
+}
+.contseach {
+  height: 150px;
+  line-height: 150px;
+  width: 100%;
+  background: url(../../assets/images/qihuan3.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+.contseach .img {
+  position: absolute;
+  top: 30px;
+  left: 140px;
+}
+.contseach .img img {
+  border-radius: 40%;
+}
+.contseach .img span {
+  color: rgb(230, 118, 27);
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 450;
+  vertical-align: top;
+  margin-top: -30px;
+  margin-left: 30px;
+}
+
+/* 本周推荐 */
+.recomment {
+  position: relative;
+}
+.top a {
+  display: inline-block;
+  margin: 0;
+}
+.weekre {
+  width: 170px;
+  background-color: rgb(182, 239, 243);
+  margin-left: 60px;
+  padding: 10px 20px;
+}
+.weekre h4 {
+  text-align: center;
+  font-size: 20px;
+}
+.weekre ul li {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px #aaa dashed;
+}
+.weekre ul li .writer {
+  float: right;
+}
+.news {
+  width: 170px;
+  background-color: rgb(243, 243, 230);
+  position: relative;
+  left: 840px;
+  top: -356px;
+  padding: 10px 20px;
+}
+.news span {
+  background-color: brown;
+  color: white;
+}
+.news ul li {
+  height: 30px;
+  line-height: 30px;
+}
+.book {
+  position: absolute;
+  top: 40px;
+  left: 350px;
+}
+.bookimg {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bookimg > div {
+  margin: 0 10px;
+}
+.bookimg > div > p a:link {
+  text-decoration: none;
+}
+.booknew{
+    margin-top: 30px;
+    margin-left: -50px;
+    height: 100px;
+    width: 500px;
+    background: rgb(199, 196, 196);
+    text-align: center;
+}
+.booknew span{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-left: -230px;
+    margin-top: 30px;
+}
+.booknew a{
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -50px;
+    
+}
